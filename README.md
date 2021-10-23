@@ -5,8 +5,6 @@
 
 ## TODO
 
-1. 评论系统目前采用 TeXt 支持的 Valine，之后找时间更换为Waline
-
 
 ## 其他
 本网站由 GitHub Pages 通过 jekyll 发布，基于
