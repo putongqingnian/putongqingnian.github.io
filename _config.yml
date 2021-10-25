@@ -223,3 +223,21 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+## => Podcast
+##############################
+podcast:
+  title: 普通青年Podcast
+  description: 普通青年Podcast
+  url: /podcast.xml # podcast xml url
+  author: 普通青年Podcast
+  email: putongqingnian2021@163.com
+  logo: [podcast logo url] # logo in 1400 – 3000 pixel
+  language: chi # http://www.loc.gov/standards/iso639-2/php/code_list.php
+  category: [category] # https://help.apple.com/itc/podcasts_connect/#/itc9267a2f12
+  subcategory: [subcategory]
+  type: [podcast type] # episodic | serial
+  explicit: false # true | false
+  complete: [complete state] # 'yes' | 'no'
+  block: [block state] # 'yes' | 'no'
+

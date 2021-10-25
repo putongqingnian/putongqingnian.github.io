@@ -11,3 +11,6 @@
 [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 主题进行定制完成。
 
+播客发布功能由
+[jekyll-podcast](https://github.com/sayomelu/jekyll-podcast)
+提供。
