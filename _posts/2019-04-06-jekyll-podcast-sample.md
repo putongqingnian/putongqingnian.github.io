@@ -3,8 +3,8 @@ layout: podcast
 categories: podcast # podcast
 title: jekyll podcast sample
 author: sayo melu
-season: 2
-episode: 9
+season: 1
+episode: 1
 episodeType: full # full | trailer | bonus
 explicit: false # true | false
 audio: /audio/test.m4a
