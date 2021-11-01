@@ -19,7 +19,10 @@ layout: null
         </itunes:owner>
         {% for _category in site.podcast.categories %}
         <itunes:category text='{{ _category.category }}'>
+            {% if _category.subcategory %}
             <itunes:category text='{{ _category.subcategory }}'/>
+            {% endif %}
+        </itunes:category>
         {% endfor %}
         </itunes:category>
         <itunes:type>{{ site.podcast.type }}</itunes:type>

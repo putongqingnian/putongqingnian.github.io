@@ -236,7 +236,8 @@ podcast:
   language: chi # http://www.loc.gov/standards/iso639-2/php/code_list.php
   categories:
   - category: Society &amp; Culture # https://help.apple.com/itc/podcasts_connect/#/itc9267a2f12 
-    subcategory: [subcategory]
+  - category: News # https://help.apple.com/itc/podcasts_connect/#/itc9267a2f12 
+    subcategory: Politics
   type: [podcast type] # episodic | serial
   explicit: false # true | false
   complete: [complete state] # 'yes' | 'no'
