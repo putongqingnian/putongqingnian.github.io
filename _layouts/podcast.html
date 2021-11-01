@@ -15,9 +15,6 @@ pageview: true
           <a id="time{{ _shownote.time }}" href="javascript:void(0)" onclick="skip({{ _shownote.time }})">{{ _shownote.time }}</a>
           <span>{{ _shownote.info }}</span>
       </li>
-      <script>
-          document.getElementById("time{{ _shownote.time }}").innerHTML = format_time({{ _shownote.time }})
-      </script>
     {% endfor %}
   {% endif %} 
 </ul>
@@ -33,4 +30,11 @@ pageview: true
     audio.currentTime = skip_time;
     audio.play();
   }
+
+  {% if page.shownotes %}
+    {% for _shownote in page.shownotes %}
+      document.getElementById("time{{ _shownote.time }}").innerHTML = format_time({{ _shownote.time }})
+      {% endfor %}
+  {% endif %} 
+  
 </script>
