@@ -17,15 +17,16 @@ layout: article
     {% endfor %}
   {% endif %} 
 </ul>
-{% if page.shownotes %}
-    {% for _shownote in page.shownotes %}
-
-    {% endfor %}
-{% endif %}
 
 <script>
-    function skip(skip_time){
-        audio.current_time = skip_time;
-        audio.play();
-    }
+  var audio = document.getElementsByTagName("audio")
+  function format_time(time) {
+      min = parseInt(time / 60)
+      sec = time % 60
+      return min + ":" + time
+  }
+  function skip(skip_time) {
+    audio.current_time = skip_time;
+    audio.play();
+  }
 </script>
