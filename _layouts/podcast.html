@@ -6,3 +6,26 @@ layout: article
 <audio controls preload='auto' style='width: 100%;'><source src='{{ page.audio }}'></audio>
 <p>{% if page.season %}Season {{ page.season }} {% endif %}{% if page.episode %}Episode {{ page.episode }}{% endif %}</p>
 {{ content }}
+
+<ul>
+  {% if page.shownotes %}
+    {% for _shownote in page.shownotes %}
+      <li>
+          <a href="javascript:void(0)" onclick="skip({{ _shownote.time }})">{{ _shownote.time }}</a>
+          <span>{{ _shownote.info }}</span>
+      </li>
+    {% endfor %}
+  {% endif %} 
+</ul>
+{% if page.shownotes %}
+    {% for _shownote in page.shownotes %}
+
+    {% endfor %}
+{% endif %}
+
+<script>
+    function skip(skip_time){
+        audio.current_time = skip_time;
+        audio.play();
+    }
+</script>
