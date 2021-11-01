@@ -24,7 +24,7 @@ pageview: true
   function format_time(time) {
       min = parseInt(time / 60)
       sec = time % 60
-      return min + ":" + time
+      return min + ":" + sec
   }
   function skip(skip_time) {
     audio.currentTime = skip_time;
@@ -36,5 +36,5 @@ pageview: true
       document.getElementById("time{{ _shownote.time }}").innerHTML = format_time({{ _shownote.time }})
       {% endfor %}
   {% endif %} 
-  
+
 </script>
