@@ -13,7 +13,7 @@
   {%- endif -%}
 
 
-{%- elsif page.layout == "article" -%}
+{%- elsif page.layout == "article" | "podcast" -%}
   {%- if _pageview -%}
 
     {%- if jekyll.environment != "development" and
