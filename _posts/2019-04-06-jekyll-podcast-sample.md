@@ -9,8 +9,13 @@ episodeType: full # full | trailer | bonus
 explicit: false # true | false
 audio: /audio/test.m4a
 length: 89 # in seconds
+shownotes:
+    - time: 30
+      info: 段落1
+    - time: 50
+      info: 段落2
 
-key: p0001
+key: s1e1
 ---
 
 this is **episode note**.
