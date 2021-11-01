@@ -24,7 +24,6 @@ layout: null
             {% endif %}
         </itunes:category>
         {% endfor %}
-        </itunes:category>
         <itunes:type>{{ site.podcast.type }}</itunes:type>
         <itunes:explicit>{{ site.podcast.explicit }}</itunes:explicit>
         <itunes:complete>{{ site.podcast.complete }}</itunes:complete>
