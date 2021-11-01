@@ -232,7 +232,7 @@ podcast:
   url: /podcast.xml # podcast xml url
   author: 普通青年Podcast
   email: putongqingnian2021@163.com
-  logo: [podcast logo url] # logo in 1400 – 3000 pixel
+  logo: /logo-2000x2000.png # logo in 1400 – 3000 pixel
   language: chi # http://www.loc.gov/standards/iso639-2/php/code_list.php
   categories:
   - category: Society &amp; Culture # https://help.apple.com/itc/podcasts_connect/#/itc9267a2f12 
