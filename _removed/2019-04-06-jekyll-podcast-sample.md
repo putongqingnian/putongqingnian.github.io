@@ -12,8 +12,9 @@ length: 89 # in seconds
 shownotes:
     - time: 30
       info: 段落1
-    - time: 50
+    - time: 80
       info: 段落2
+
 key: s1e1
 ---
 
