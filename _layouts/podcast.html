@@ -24,6 +24,8 @@ pageview: true
   function format_time(time) {
       min = parseInt(time / 60)
       sec = time % 60
+      if(sec < 10)
+        return min + ":0" + sec
       return min + ":" + sec
   }
   function skip(skip_time) {
